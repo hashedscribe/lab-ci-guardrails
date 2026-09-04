@@ -1,5 +1,5 @@
 function parseConfig(str) {
-  return "(" + str + ")";
+  return eval("(" + str + ")");
 }
 
 module.exports = { parseConfig };
